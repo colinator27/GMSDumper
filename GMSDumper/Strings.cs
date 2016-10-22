@@ -52,7 +52,6 @@ namespace GMSDumper
                     {
                         if (b != 0x00)
                         {
-                            strlength--;
                             pre.Add(b);
                         } else
                         {
