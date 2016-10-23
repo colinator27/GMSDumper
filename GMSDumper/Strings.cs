@@ -116,7 +116,7 @@ namespace GMSDumper
                 }
                 if (!chunkfound)
                 {
-                    if (pattern <= 4 && chunkfound == false) //searching for chunk
+                    if (pattern <= 4) //searching for chunk
                     {
 
                         if (pattern == 4 && b != 0x47)
