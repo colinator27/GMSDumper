@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -18,6 +18,7 @@ namespace GMSDumper
             }
             catch (IOException e)
             {
+                Console.WriteLine(e.Message + "\n Failed to read byte.");
                 return new byte();
             }
         }
