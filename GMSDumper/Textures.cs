@@ -204,13 +204,9 @@ namespace GMSDumper
                     {
                         pattern++;
                     }
-                    if (pattern <= 20 && b != 0x00)
+                    if (pattern == 0 && b == 0x00)
                     {
-                        pattern = 0;
-                    }
-                    if (pattern <= 20 && b == 0x00)
-                    {
-                        pattern++;
+                        pattern = 21;
                     }
                 }
             }
