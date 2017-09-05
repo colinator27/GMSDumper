@@ -1,6 +1,8 @@
 # GMSDumper
 A program which can dump/unpack/extract some parts of a GameMaker: Studio game. May add repacking soon.
 
+**Note: This project is old and was made before I had full knowledge of GameMaker data files. It also does not support Unicode strings.**
+
 Currently exports the texture pages, strings, and audio.
 
 ### To use
