@@ -1,3 +1,5 @@
+***Noteice: This is a very outdated project that barely functioned even when it wasn't outdated. So personally I would advise against using it. Or even looking at it.***
+
 # GMSDumper
 A program which can dump/unpack/extract some parts of a GameMaker: Studio game. May add repacking soon.
 
